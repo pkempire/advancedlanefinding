@@ -8,9 +8,9 @@
 [//]: # (Image References)
 
 [image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./examples/hls.png "HLS"
+[image2]: ./hls.png "HLS"
 [image3]: ./examples/perspectiveTransform.png "Transformed"
-[image4]: ./examples/sobel.png "Sobel"
+[image4]: ./sobel2.png "Sobel"
 [image5]: ./examples/slidingwindow.png "Sliding Window Visual"
 [image6]: ./examples/final.png "Final output"
 [image7]: ./examples/thresholded.png "Thresholded"
