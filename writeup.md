@@ -10,9 +10,11 @@
 [image1]: ./examples/undistort_output.png "Undistorted"
 [image2]: ./examples/hls.png "HLS"
 [image3]: ./examples/perspectiveTransform.png "Transformed"
-[image4]: ./examples/perspectiveTransform.png "Transformed"
+[image4]: ./examples/sobel.png "Sobel"
 [image5]: ./examples/slidingwindow.png "Sliding Window Visual"
 [image6]: ./examples/final.png "Final output"
+[image7]: ./examples/thresholded.png "Thresholded"
+
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -25,13 +27,17 @@
 I used the images in "camera_cal" folder to find the camera matrix and distortion coefficients. This let me undistort the image
 
 
-![alt text][image2]
+![alt text][image1]
 
 #### 2. Perspective Transform
 I manually found the 4 source points which marked the region of interest of the image, and then transformed it to my 4 destination points. These destination points were made so lines that were straight in the original picture were straight in the transformed picture.
 
 
-![alt text][image3]
+![alt text][image2]
+![alt text][image4]
+![alt text][image7]
+
+
 
 #### 3. Thresholding 
 To create a thresholded image I went through 2 steps. Firstly I applied thresholds in the HLS colorspace and secondly I used gradients (sobel)
