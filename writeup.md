@@ -32,17 +32,18 @@ I used the images in "camera_cal" folder to find the camera matrix and distortio
 #### 2. Perspective Transform
 I manually found the 4 source points which marked the region of interest of the image, and then transformed it to my 4 destination points. These destination points were made so lines that were straight in the original picture were straight in the transformed picture.
 
+![alt text][image3]
 
-![alt text][image2]
-![alt text][image4]
-![alt text][image7]
+
 
 
 
 #### 3. Thresholding 
 To create a thresholded image I went through 2 steps. Firstly I applied thresholds in the HLS colorspace and secondly I used gradients (sobel)
 
+![alt text][image2]
 ![alt text][image4]
+![alt text][image7]
 
 #### 4. Lane finding
 I used a sliding window search for finding the lane line pixels. This started with using a histogram to find the bottom of the lane lines, and then using 10 windows that were 100 pixels wide to go up from there. Then inside those windows we find the position of every non-zero pixel and save them. Lastly we use these points to calculate a polynomial to fit the line. 
