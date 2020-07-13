@@ -7,9 +7,9 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistorted.png "Undistorted"
-[image2]: ./test_images/perspectiveTransform.png "Transformed"
-[image3]: ./examples/thresholded.png "Binary"
+[image1]: ./examples/undistort_output.png "Undistorted"
+[image2]: ./test_images/hls.png "HLS"
+[image3]: ./examples/sobel.png "Sobel"
 [image4]: ./test_images/perspectiveTransform.png "Transformed"
 [image5]: ./examples/slidingwindow.png "Sliding Window Visual"
 [image6]: ./examples/final.png "Final output"
