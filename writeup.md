@@ -24,13 +24,13 @@
 
 
 #### 1. Distortion
-I used the images in "camera_cal" folder to find the camera matrix and distortion coefficients. This let me undistort the image
+I used the images in "camera_cal" folder to find the camera matrix and distortion coefficients. Using the coefficients I undistorted the images.
 
 
 ![alt text][image1]
 
 #### 2. Perspective Transform
-I manually found the 4 source points which marked the region of interest of the image, and then transformed it to my 4 destination points. These destination points were made so lines that were straight in the original picture were straight in the transformed picture.
+I manually found the 4 source points which marked the region of interest of the image, and then transformed it to my 4 destination points.
 
 ![alt text][image3]
 
@@ -39,7 +39,7 @@ I manually found the 4 source points which marked the region of interest of the 
 
 
 #### 3. Thresholding 
-To create a thresholded image I went through 2 steps. Firstly I applied thresholds in the HLS colorspace and secondly I used gradients (sobel)
+To make a thresholded image I applied thresholds to colorspaces (HLS) and gradients (sobel)
 
 ![alt text][image2]
 ![alt text][image4]
