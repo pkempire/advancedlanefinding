@@ -8,11 +8,11 @@
 [//]: # (Image References)
 
 [image1]: ./examples/undistorted.png "Undistorted"
-[image2]: ./test_images/perspectiveTransform.jpg "Road Transformed"
-[image3]: ./examples/thresholded.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/slidingwindow.jpg "Fit Visual"
-[image6]: ./examples/final.jpg "Output"
+[image2]: ./test_images/perspectiveTransform.png "Transformed"
+[image3]: ./examples/thresholded.png "Binary"
+[image4]: ./test_images/perspectiveTransform.png "Transformed"
+[image5]: ./examples/slidingwindow.png "Sliding Window Visual"
+[image6]: ./examples/final.png "Final output"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
