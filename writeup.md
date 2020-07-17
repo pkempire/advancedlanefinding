@@ -8,11 +8,10 @@
 [//]: # (Image References)
 
 [image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./hls.png "thresholded2"
 [image3]: ./examples/warped2.png "Transformed"
 [image5]: ./examples/slidingwindow2.png "Sliding Window Visual"
 [image6]: ./examples/final2.png "Final output"
-[image7]: ./examples/thresholded.png "Thresholded"
+[image7]: ./examples/thresholded2.png "Thresholded"
 
 [video1]: ./project_video.mp4 "Video"
 
