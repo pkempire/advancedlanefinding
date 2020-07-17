@@ -8,11 +8,10 @@
 [//]: # (Image References)
 
 [image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./hls.png "HLS"
-[image3]: ./examples/perspectiveTransform.png "Transformed"
-[image4]: ./sobel2.png "Sobel"
-[image5]: ./examples/slidingwindow.png "Sliding Window Visual"
-[image6]: ./examples/final.png "Final output"
+[image2]: ./hls.png "thresholded2"
+[image3]: ./examples/warped2.png "Transformed"
+[image5]: ./examples/slidingwindow2.png "Sliding Window Visual"
+[image6]: ./examples/final2.png "Final output"
 [image7]: ./examples/thresholded.png "Thresholded"
 
 [video1]: ./project_video.mp4 "Video"
@@ -42,7 +41,6 @@ I manually found the 4 source points which marked the region of interest of the 
 To make a thresholded image I applied thresholds to colorspaces (HLS) and gradients (sobel)
 
 ![alt text][image2]
-![alt text][image4]
 ![alt text][image7]
 
 #### 4. Lane finding
