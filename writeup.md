@@ -37,7 +37,7 @@ I manually found the 4 source points which marked the region of interest of the 
 
 
 #### 3. Thresholding 
-To make a thresholded image I applied thresholds to colorspaces (HLS) and gradients (sobel)
+I applied thresholds to 3 colorspaces - HLS, LUV, LAB. I then combined the images to create my final binary image.
 
 ![alt text][image2]
 ![alt text][image7]
